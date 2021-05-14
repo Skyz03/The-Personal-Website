@@ -5,28 +5,63 @@ body {
 }
 
 h1 {
-  color: #66bfbf;
+  color: #ffffc7;
   font-size: 5.625em;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
+  line-height: 2;
 }
 
-h2,
+.hero-heading {
+  color: #ffffc7;
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  /* color: #ffffc7; */
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
 h3 {
-  color: #66bfbf;
+  color: #11999e;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
 
 .skills-img {
-  height: 200px;
-  width: 200px;
+  width: 25%;
 }
+
+.left-skill-img {
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.right-skill-img {
+  float: right;
+  margin: 0 0 0 30px;
+}
+
 .top-container {
-  background-color: blue;
+  background-color: #233e8b;
   position: relative;
   padding-top: 100px;
 }
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+/* .skills-left-description {
+  clear: left;
+}
+.skills-right-description {
+  clear: right;
+} */
 .middle-container {
 }
 
@@ -47,4 +82,8 @@ h3 {
 
 span {
   text-decoration: underline;
+}
+
+.footer-link {
+  color: #11999e;
 }
