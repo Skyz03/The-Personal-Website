@@ -19,11 +19,25 @@ h2 {
 }
 
 h3 {
-  color: #11999e;
+  color: white;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
 }
 
+hr {
+  width: 15%;
+  border: 7px blue dotted;
+  border-top: none;
+  margin: 100px auto 100px auto;
+}
+.get-in-touch {
+  font-family: "Sacramento", cursive;
+  /* color: #11999e; */
+  font-size: 5rem;
+}
+.get-in-touch-description {
+  color: black;
+}
 .top-container {
   background-color: #233e8b;
   position: relative;
@@ -48,18 +62,30 @@ h3 {
   bottom: 300px;
 }
 
+.profile-image {
+  padding-top: 40px;
+  width: 15%;
+}
+.skills {
+  background-color: #0c92eb;
+}
+.skill-heading {
+  color: white;
+  font-size: 5rem;
+  font-family: "Sacramento", cursive;
+}
 .skills-img {
   width: 25%;
 }
 
 .left-skill-img {
   float: left;
-  margin: 0 30px 0 0;
+  margin: 0 70px 0 0;
 }
 
 .right-skill-img {
   float: right;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 70px;
 }
 
 .skill-row {
@@ -69,16 +95,55 @@ h3 {
   line-height: 2;
 }
 
-.middle-container {
+.btn {
+  background: #0c92eb;
+  background-image: -webkit-linear-gradient(top, #0c92eb, #2f6b91);
+  background-image: -moz-linear-gradient(top, #0c92eb, #2f6b91);
+  background-image: -ms-linear-gradient(top, #0c92eb, #2f6b91);
+  background-image: -o-linear-gradient(top, #0c92eb, #2f6b91);
+  background-image: linear-gradient(to bottom, #0c92eb, #2f6b91);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 10rem;
 }
+
+.btn:hover {
+  background: #b2cbdb;
+  background-image: -webkit-linear-gradient(top, #b2cbdb, #5d7280);
+  background-image: -moz-linear-gradient(top, #b2cbdb, #5d7280);
+  background-image: -ms-linear-gradient(top, #b2cbdb, #5d7280);
+  background-image: -o-linear-gradient(top, #b2cbdb, #5d7280);
+  background-image: linear-gradient(to bottom, #b2cbdb, #5d7280);
+  text-decoration: none;
+}
+
+/* .middle-container {
+} */
 
 .bottom-container {
-}
-
-span {
-  text-decoration: underline;
+  background-color: #233e8b;
+  padding: 20px;
+  color: white;
 }
 
 .footer-link {
-  color: #11999e;
+  margin: 25px;
+  color: white;
+  line-height: 2;
+}
+
+.footer-link:hover {
+  color: aquamarine;
+}
+.contact-me {
+  margin: 5rem 0;
+}
+span {
+  text-decoration: underline;
 }
